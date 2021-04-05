@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   customFolderPath: 
   customFolderPaths:
-  - AdventureCreator/Scripts/Actions
+  - 
   allFavouriteActionData: []
   displayActionsInInspector: 1
   displayActionsInEditor: 1

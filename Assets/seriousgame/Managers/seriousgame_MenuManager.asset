@@ -507,7 +507,7 @@ MonoBehaviour:
     y: 134.3299
     width: 292.19696
     height: 181.34021
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &-6697667649927989749
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -591,7 +591,7 @@ MonoBehaviour:
   isLocked: 0
   id: 11
   title: Hotspot
-  manualSize: {x: 34, y: 12}
+  manualSize: {x: 34, y: 11.999999}
   positionType: 3
   manualPosition: {x: 50, y: 44.4}
   positionSmoothing: 0
@@ -662,14 +662,14 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 178.5, y: 54}
+  biggestElementSize: {x: 472.26, y: 90.479996}
   rect:
     serializedVersion: 2
-    x: 173.25
-    y: 172.8
-    width: 178.5
-    height: 54
-  showInFilter: 0
+    x: 458.37
+    y: 289.536
+    width: 472.26
+    height: 90.479996
+  showInFilter: 1
 --- !u!114 &-6592743367756744564
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1670,7 +1670,7 @@ MonoBehaviour:
     y: 0
     width: 525
     height: 56.713634
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &-4431405293739805470
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1970,7 +1970,7 @@ MonoBehaviour:
     y: 207.5825
     width: 103.08751
     height: 34.835
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &-3295745139349485392
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2721,7 +2721,7 @@ MonoBehaviour:
     y: 76.93797
     width: 285.07498
     height: 296.12405
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &-1783371270520410892
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2894,8 +2894,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 178.5
-    height: 54
+    width: 472.26
+    height: 90.479996
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -3471,13 +3471,13 @@ MonoBehaviour:
   globalDepth: 0
   pauseTexture: {fileID: 0}
   scaleTextEffects: 0
-  keyboardControlWhenPaused: 1
+  keyboardControlWhenPaused: 0
   keyboardControlWhenCutscene: 0
-  keyboardControlWhenDialogOptions: 1
+  keyboardControlWhenDialogOptions: 0
   autoSelectValidRaycasts: 0
   horizontalInputAxis: Horizontal
   verticalInputAxis: Vertical
-  hasUpgraded: 0
+  hasUpgraded: 1
   doWindowsPreviewFix: 1
   drawOutlines: 1
   drawInEditor: 1
@@ -3784,7 +3784,7 @@ MonoBehaviour:
     y: 160.875
     width: 89.25
     height: 128.25
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &687833734755744055
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4160,7 +4160,7 @@ MonoBehaviour:
     y: 152.25
     width: 162.75
     height: 145.5
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &1480423246177615186
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4532,7 +4532,7 @@ MonoBehaviour:
     y: 423.15
     width: 38.325
     height: 26.85
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &2926282143137838071
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4785,7 +4785,7 @@ MonoBehaviour:
     y: 248.9625
     width: 189
     height: 129.375
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &3171091754661953635
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4888,7 +4888,7 @@ MonoBehaviour:
     y: 296.55002
     width: 262.5
     height: 126
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &3555830545634147180
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5468,7 +5468,7 @@ MonoBehaviour:
     y: 48.246353
     width: 294
     height: 353.5073
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &5323257838229047202
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6086,7 +6086,7 @@ MonoBehaviour:
     y: 69.3
     width: 237.75023
     height: 311.4
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &7123272827435855434
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6394,7 +6394,7 @@ MonoBehaviour:
     y: 152.25
     width: 162.75
     height: 145.5
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &7722679317956529343
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6577,7 +6577,7 @@ MonoBehaviour:
     y: 135.75
     width: 194.25
     height: 178.5
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &8815804533769239328
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6694,7 +6694,7 @@ MonoBehaviour:
     y: 123.75
     width: 162.74998
     height: 202.5
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &9198564719978933818
 MonoBehaviour:
   m_ObjectHideFlags: 1
