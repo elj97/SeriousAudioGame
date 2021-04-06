@@ -35,8 +35,8 @@ MonoBehaviour:
   syncSubtitlesToAudio: 0
   useAssetBundles: 0
   searchAudioFiles: 1
-  autoNameSpeechFiles: 1
-  referenceSpeechFiles: 0
+  autoNameSpeechFiles: 0
+  referenceSpeechFiles: 1
   autoSpeechFolder: Speech
   autoLipsyncFolder: Lipsync
   forceSubtitles: 1

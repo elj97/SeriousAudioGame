@@ -3369,7 +3369,8 @@ MonoBehaviour:
   outlineSize: 2
   anchor: 3
   selected: 0
-  optionsArray: []
+  optionsArray:
+  - Original
   cycleType: 0
   splitLanguageType: 0
   varID: 0
