@@ -490,9 +490,9 @@ RectTransform:
   m_Father: {fileID: 1938338254}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -245, y: -77}
+  m_AnchorMin: {x: 0.5, y: 0.42674074}
+  m_AnchorMax: {x: 0.5, y: 0.42674074}
+  m_AnchoredPosition: {x: 0, y: 4}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2093005907
@@ -797,6 +797,18 @@ PrefabInstance:
     - target: {fileID: 7539204361110442647, guid: 35af236c248e540498b7da9d97e04667, type: 3}
       propertyPath: m_Name
       value: SceneLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539204361376802238, guid: 35af236c248e540498b7da9d97e04667, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539204361376802238, guid: 35af236c248e540498b7da9d97e04667, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539204361376802238, guid: 35af236c248e540498b7da9d97e04667, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35af236c248e540498b7da9d97e04667, type: 3}

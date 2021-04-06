@@ -2146,3 +2146,141 @@ System memory in use after: 107.9 MB.
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2930.
 Total: 2.793400 ms (FindLiveObjects: 0.293100 ms CreateObjectMapping: 0.157300 ms MarkObjects: 2.286600 ms  DeleteObjects: 0.040200 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001382 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AC.ACEditorPrefs:GetOrCreateSettings () (at Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:73)
+AC.ACEditorPrefs:get_DisableInstaller () (at Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:347)
+AC.ACInstaller:IsInstalled () (at Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:35)
+AC.ACInstaller:CheckInstall () (at Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:50)
+AC.ACInstaller:.cctor () (at Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 73]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x000e5] in C:\Users\bloffler\Documents\Github\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\ACEditorPrefs.cs:73 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in C:\Users\bloffler\Documents\Github\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\ACEditorPrefs.cs:347 
+  at AC.ACInstaller.IsInstalled () [0x00000] in C:\Users\bloffler\Documents\Github\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\Editor\ACInstaller.cs:35 
+  at AC.ACInstaller.CheckInstall () [0x00000] in C:\Users\bloffler\Documents\Github\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\Editor\ACInstaller.cs:50 
+  at AC.ACInstaller..cctor () [0x00000] in C:\Users\bloffler\Documents\Github\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\Editor\ACInstaller.cs:29 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.906 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2341 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.7 MB.
+System memory in use after: 107.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2935.
+Total: 2.205700 ms (FindLiveObjects: 0.338900 ms CreateObjectMapping: 0.111300 ms MarkObjects: 1.718700 ms  DeleteObjects: 0.035800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 258.609883 seconds.
+  path: Assets/seriousgame/UI/ActionLists
+  artifactKey: Guid(96df480a7fcaafb4e8c5704ac063adf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seriousgame/UI/ActionLists using Guid(96df480a7fcaafb4e8c5704ac063adf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efad34c8bc1c747f68b53e7013188205') in 0.006162 seconds
+  Import took 0.010385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090055 seconds.
+  path: Assets/seriousgame/UI/ActionLists/CloseCrafting.asset
+  artifactKey: Guid(310d75abb00967c4aa7154e7e7f18c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seriousgame/UI/ActionLists/CloseCrafting.asset using Guid(310d75abb00967c4aa7154e7e7f18c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a367d9e2224e0b58b4bd231c377b0e') in 0.016502 seconds
+  Import took 0.021617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/seriousgame/UI/ActionLists/CreateNewProfile.asset
+  artifactKey: Guid(2b933d21062530e45900ce8d7ca4bcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seriousgame/UI/ActionLists/CreateNewProfile.asset using Guid(2b933d21062530e45900ce8d7ca4bcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267692ed8a363b7f8a99dd17507f0986') in 0.004993 seconds
+  Import took 0.008942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/seriousgame/UI/ActionLists/QuitButton.asset
+  artifactKey: Guid(f1370789a1fd59647af02e40d6e5f5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seriousgame/UI/ActionLists/QuitButton.asset using Guid(f1370789a1fd59647af02e40d6e5f5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf0fc2ee16dc084cced2ded9a8c49cf') in 0.005433 seconds
+  Import took 0.010293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/seriousgame/UI/ActionLists/HideSelectedObjective.asset
+  artifactKey: Guid(23569b1eac0955044a22ebb13e9b9ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seriousgame/UI/ActionLists/HideSelectedObjective.asset using Guid(23569b1eac0955044a22ebb13e9b9ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dada38fa97fbb8c482605d7d9cdd24b') in 0.004491 seconds
+  Import took 0.008970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/seriousgame/UI/ActionLists/SetupProfilesMenu.asset
+  artifactKey: Guid(66d4443c10bae434ba65daf594219272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seriousgame/UI/ActionLists/SetupProfilesMenu.asset using Guid(66d4443c10bae434ba65daf594219272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0482bdbb2b49efeaaca6b1d28378d7b2') in 0.005702 seconds
+  Import took 0.009905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/seriousgame/UI/ActionLists/DeleteActiveProfile.asset
+  artifactKey: Guid(4f1d5968c1d35d345b3e0debed7b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seriousgame/UI/ActionLists/DeleteActiveProfile.asset using Guid(4f1d5968c1d35d345b3e0debed7b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9004c2bdbfef033b9049933e19282e3c') in 0.004565 seconds
+  Import took 0.008266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/seriousgame/UI/ActionLists/DeselectInventory.asset
+  artifactKey: Guid(8247982f36856b64ba1b52204a493fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seriousgame/UI/ActionLists/DeselectInventory.asset using Guid(8247982f36856b64ba1b52204a493fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017a05c223bdebf38d3ec1f9a8f587b0') in 0.005082 seconds
+  Import took 0.009776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/seriousgame/UI/ActionLists/ShowSelectedObjective.asset
+  artifactKey: Guid(87cc6c6d5768b4d4aaa872f8c966b7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seriousgame/UI/ActionLists/ShowSelectedObjective.asset using Guid(87cc6c6d5768b4d4aaa872f8c966b7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d19c8651e82a0cda33b3646154efca') in 0.004426 seconds
+  Import took 0.008590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/seriousgame/UI/ActionLists/TakeAllContainerItems.asset
+  artifactKey: Guid(9d3bb34343c47304fa75a6cacc3939d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seriousgame/UI/ActionLists/TakeAllContainerItems.asset using Guid(9d3bb34343c47304fa75a6cacc3939d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f3e541ab12703418b12c4d448681cc') in 0.006226 seconds
+  Import took 0.010602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/seriousgame/UI/ActionLists/DoCrafting.asset
+  artifactKey: Guid(3bf7d5e6249a0ed4dbcd9553c3d5ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seriousgame/UI/ActionLists/DoCrafting.asset using Guid(3bf7d5e6249a0ed4dbcd9553c3d5ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aeba590e672691a8bfc22eab0ecad58') in 0.003821 seconds
+  Import took 0.008094 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
