@@ -87,7 +87,7 @@ MonoBehaviour:
     carryOnStartID: 0
     useSeparateSlots: 0
     selectSingle: 0
-    showInFilter: 0
+    showInFilter: 1
   bins: []
   invVars: []
   unhandledCombine: {fileID: 0}
