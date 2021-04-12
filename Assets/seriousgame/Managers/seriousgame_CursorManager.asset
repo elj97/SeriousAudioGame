@@ -24,9 +24,9 @@ MonoBehaviour:
     label: Walk to
     lineID: -1
   addHotspotPrefix: 0
-  allowInteractionCursor: 0
+  allowInteractionCursor: 1
   allowInteractionCursorForInventory: 0
-  cycleCursors: 0
+  cycleCursors: 1
   onlyAnimateOverHotspots: 0
   leftClickExamine: 0
   onlyWalkWhenOverNavMesh: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
     clickOffset: {x: 0, y: 0}
     frameSpeeds: []
     alwaysAnimate: 0
-    dontCycle: 0
+    dontCycle: 1
     label: Talk to
     lineID: -1
     id: 1
@@ -151,13 +151,13 @@ MonoBehaviour:
     lineID: -1
     id: 2
   unhandledCursorInteractions:
+  - {fileID: 11400000, guid: c7045c11fecb53f4fbb941a823bdfb6e, type: 2}
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 3efd5ce342062804ea59595923be5214, type: 2}
   passUnhandledHotspotAsParameter: 0
   onlyShowCursorLabelOverHotspots: 0
   allowCursorCyclingWhenPaused: 0
   lookUseCursorAction: 0
   lookCursor_ID: 2
   hideCursorWhenDraggingMoveables: 1
-  forceCursorInEditor: 1
+  forceCursorInEditor: 0

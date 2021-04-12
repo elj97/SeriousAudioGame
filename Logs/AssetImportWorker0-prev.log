@@ -1,278 +1,85 @@
 Using pre-set license
-Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Enterprise; OS build 19041.867; Version 2004; 64bit' Language: 'en' Physical Memory: 32683 MB
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 18363.1440; Version 1909; 64bit' Language: 'en' Physical Memory: 32678 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/efernandez4/Documents/GitHub/SeriousAudioGame
+C:/Users/Elijah/Documents/GitHub/SeriousAudioGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53997
-Successfully changed project path to: C:/Users/efernandez4/Documents/GitHub/SeriousAudioGame
-C:/Users/efernandez4/Documents/GitHub/SeriousAudioGame
+55464
+Successfully changed project path to: C:/Users/Elijah/Documents/GitHub/SeriousAudioGame
+C:/Users/Elijah/Documents/GitHub/SeriousAudioGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 61.15 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 61.10 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.1f1 (77a89f25062f)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/efernandez4/Documents/GitHub/SeriousAudioGame/Assets
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Elijah/Documents/GitHub/SeriousAudioGame/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
     Vendor:   
-    VRAM:     4053 MB
-    Driver:   26.21.14.3200
+    VRAM:     10077 MB
+    Driver:   27.21.14.6589
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002141 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003951 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 54.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 42.69 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.709 seconds
+- Completed reload, in  4.963 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001324 seconds.
+Registered in 0.002481 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.99 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 62.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.140 seconds
+- Completed reload, in  0.997 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2367 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.1 MB.
-System memory in use after: 105.3 MB.
+System memory in use before: 105.6 MB.
+System memory in use after: 105.7 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2811.
-Total: 3.778200 ms (FindLiveObjects: 0.568800 ms CreateObjectMapping: 0.289900 ms MarkObjects: 2.829800 ms  DeleteObjects: 0.088200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/F_Tabletopv2.png
-  artifactKey: Guid(c50c33979a6685641bbbeefcb22f598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/F_Tabletopv2.png using Guid(c50c33979a6685641bbbeefcb22f598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2e021ee7017d50ae66f3157c9816b3') in 0.141237 seconds
-  Import took 0.146618 seconds .
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2807.
+Total: 2.210600 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.065400 ms MarkObjects: 1.712400 ms  DeleteObjects: 0.132300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/F_Tabletop.png
-  artifactKey: Guid(61988ae3af49c8b4e81176f26e7ddf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/F_Tabletop.png using Guid(61988ae3af49c8b4e81176f26e7ddf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6975f18842a8019845c9216dd698c381') in 0.017931 seconds
-  Import took 0.022929 seconds .
+  path: Assets/seriousgame/Audio/Music
+  artifactKey: Guid(0c9acd1857810914f9ad637f59d0bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seriousgame/Audio/Music using Guid(0c9acd1857810914f9ad637f59d0bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dafe78f4ca4ceea786c8a9853f9c06b') in 0.011662 seconds
+  Import took 0.016633 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/F_WWall.png
-  artifactKey: Guid(d7a5123ceb799ce48af7e9111a6827a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/F_WWall.png using Guid(d7a5123ceb799ce48af7e9111a6827a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc8d6317c800817fc8e721dd8308236') in 0.016105 seconds
-  Import took 0.021110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/F_Speaker.png
-  artifactKey: Guid(15ed1dcdc0e336946bf85a220cf732b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/F_Speaker.png using Guid(15ed1dcdc0e336946bf85a220cf732b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701b40d72db6f1cd97c37caf62ebf0c6') in 0.013083 seconds
-  Import took 0.017410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/F_EWall.png
-  artifactKey: Guid(03385f410e32eff4c814f981ec068b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/F_EWall.png using Guid(03385f410e32eff4c814f981ec068b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af202cf84d9eab0d1f8ddf4c755e4a98') in 0.013323 seconds
-  Import took 0.017063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/F_Floor.png
-  artifactKey: Guid(5d2cd1226e300004abfa216b8d21cae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/F_Floor.png using Guid(5d2cd1226e300004abfa216b8d21cae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63215a50cddfd59cbbe689c752d45608') in 0.011640 seconds
-  Import took 0.015269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/F_PowerpointCord.png
-  artifactKey: Guid(a15ba6e75b6c4914c8daf993f8383283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/F_PowerpointCord.png using Guid(a15ba6e75b6c4914c8daf993f8383283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706b370b78b776e22da5e0e7bb71a39f') in 0.010129 seconds
-  Import took 0.014449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/F_CWall.png
-  artifactKey: Guid(c085e27845643934c9086048c88ad54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/F_CWall.png using Guid(c085e27845643934c9086048c88ad54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5549ab0c7a217e8e8f6b3f842d5e31') in 0.013718 seconds
-  Import took 0.017718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/F_FirefaceV6.png
-  artifactKey: Guid(909b93316f601794493e76ad8ac27721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/F_FirefaceV6.png using Guid(909b93316f601794493e76ad8ac27721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2967521c443f3f43281a2584fb75986') in 0.031007 seconds
-  Import took 0.035757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/F_PowerpointSwitchOFF.png
-  artifactKey: Guid(f7d8ca0438dac594399fb92f96fc63c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/F_PowerpointSwitchOFF.png using Guid(f7d8ca0438dac594399fb92f96fc63c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3120c56fc254e2ce38f15d5efecf24c') in 0.008398 seconds
-  Import took 0.012272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/F_PowerpointSwitchON.png
-  artifactKey: Guid(85ac0d231c0b2f346ada49d4915ad784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/F_PowerpointSwitchON.png using Guid(85ac0d231c0b2f346ada49d4915ad784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87134082a5b6e6a5065bb810b8f7d32') in 0.009010 seconds
-  Import took 0.013115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/F_Keyboardbody.png
-  artifactKey: Guid(96ee0caa11967c24baf89f771583d1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/F_Keyboardbody.png using Guid(96ee0caa11967c24baf89f771583d1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6538dc677160540e573c2aeaade1bb6b') in 0.011888 seconds
-  Import took 0.017652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/F_PowerPoint.png
-  artifactKey: Guid(e5fe3cf533a40964ea8a8372b12a0794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/F_PowerPoint.png using Guid(e5fe3cf533a40964ea8a8372b12a0794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25219e9a3bcaee3c20ac22627fc4b0a7') in 0.009722 seconds
-  Import took 0.014004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.025278 seconds.
-  path: Assets/seriousgame/Graphics/Sprites/F_Background.png
-  artifactKey: Guid(0f2c9699dc9135a46ae7d33866e99689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites/F_Background.png using Guid(0f2c9699dc9135a46ae7d33866e99689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4ce59680a6d8dcbc730df149730379') in 0.010913 seconds
-  Import took 0.018170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/seriousgame/Graphics/Sprites/F_Floor.png
-  artifactKey: Guid(0949f4a584396244192ef35fb8ea3413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites/F_Floor.png using Guid(0949f4a584396244192ef35fb8ea3413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447996b28a3b2b5f4d5a415a0edeb0c4') in 0.008355 seconds
-  Import took 0.011774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/seriousgame/Graphics/Sprites/F_TableTop.png
-  artifactKey: Guid(42e475e9508e6d548a963b684c950e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites/F_TableTop.png using Guid(42e475e9508e6d548a963b684c950e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbf3b1335638ab872a07ebde43707e3') in 0.010706 seconds
-  Import took 0.014780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.292459 seconds.
-  path: Assets/seriousgame/Graphics/Sprites/Mac/F_MacScreenOFF.png
-  artifactKey: Guid(b0cd5a6a3e4605c46bc534f537cebcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites/Mac/F_MacScreenOFF.png using Guid(b0cd5a6a3e4605c46bc534f537cebcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fac4d15c1fd4282c0f054148a10c26') in 0.009517 seconds
-  Import took 0.013613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/seriousgame/Graphics/Sprites/Mac/F_MacScreenONBlankPurple.png
-  artifactKey: Guid(4b501fbb046dae04b9b2a4f22cf887d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites/Mac/F_MacScreenONBlankPurple.png using Guid(4b501fbb046dae04b9b2a4f22cf887d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b3fa4c7f012e9aaae5c7f616dfa0a5') in 0.008920 seconds
-  Import took 0.013598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/seriousgame/Graphics/Sprites/Mac/F_MacScreenTURNING_ON.png
-  artifactKey: Guid(d260d8e370bf26544b0c943e4bb4dc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites/Mac/F_MacScreenTURNING_ON.png using Guid(d260d8e370bf26544b0c943e4bb4dc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35320954479ed7f1ffdccfdcad306988') in 0.009007 seconds
-  Import took 0.014382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.507678 seconds.
-  path: Assets/seriousgame/Graphics/Sprites
-  artifactKey: Guid(ad6121f32eb4e8247a698c2143fb6259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites using Guid(ad6121f32eb4e8247a698c2143fb6259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4475f308ff3ab2e7d04e3c7ece0a3988') in 0.002692 seconds
-  Import took 0.006834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/seriousgame/Graphics/Sprites
-  artifactKey: Guid(ad6121f32eb4e8247a698c2143fb6259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites using Guid(ad6121f32eb4e8247a698c2143fb6259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4475f308ff3ab2e7d04e3c7ece0a3988') in 0.002165 seconds
-  Import took 0.006032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.339230 seconds.
-  path: Assets/Scenes/F_Control.unity
-  artifactKey: Guid(1ad8b1265bbfe9045984192374299c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/F_Control.unity using Guid(1ad8b1265bbfe9045984192374299c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40dccaf2820897e8cd19a6f5c8fac39') in 0.003054 seconds
-  Import took 0.007404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000647 seconds.
-  path: Assets/Scenes/F_Control.unity
-  artifactKey: Guid(1ad8b1265bbfe9045984192374299c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/F_Control.unity using Guid(1ad8b1265bbfe9045984192374299c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40dccaf2820897e8cd19a6f5c8fac39') in 0.002496 seconds
-  Import took 0.006389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 449.543824 seconds.
-  path: Assets/seriousgame/Graphics
-  artifactKey: Guid(2bd98f47be4b81144b193f16ee24c4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics using Guid(2bd98f47be4b81144b193f16ee24c4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caefe8856e5d6de20b05728a9207d630') in 0.003464 seconds
-  Import took 0.009413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.650188 seconds.
-  path: Assets/seriousgame/Graphics/v1.png
-  artifactKey: Guid(9faeb32a44c65cf4f9e53e41c2a73b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/v1.png using Guid(9faeb32a44c65cf4f9e53e41c2a73b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5d9222df33279607bf972215e95b31') in 0.097615 seconds
-  Import took 0.104122 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

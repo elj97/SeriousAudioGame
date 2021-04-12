@@ -12,64 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e62f4daee811464dbcf224bb5b367b4, type: 3}
   m_Name: Demo2D_VariablesManager
   m_EditorClassIdentifier: 
-  vars:
-  - label: Played intro
-    id: 0
-    type: 0
-    val: 0
-    floatVal: 0
-    textVal: 
-    gameObjectVal: {fileID: 0}
-    gameObjectSaveReferences: 1
-    popUps: []
-    vector3Val: {x: 0, y: 0, z: 0}
-    link: 0
-    pmVar: 
-    updateLinkOnStart: 0
-    canTranslate: 1
-    popUpID: 0
-    textValLineID: -1
-    popUpsLineID: -1
-    description: 
-    showInFilter: 0
-  - label: Placed worm
-    id: 1
-    type: 0
-    val: 0
-    floatVal: 0
-    textVal: 
-    gameObjectVal: {fileID: 0}
-    gameObjectSaveReferences: 1
-    popUps: []
-    vector3Val: {x: 0, y: 0, z: 0}
-    link: 0
-    pmVar: 
-    updateLinkOnStart: 0
-    canTranslate: 1
-    popUpID: 0
-    textValLineID: -1
-    popUpsLineID: -1
-    description: 
-    showInFilter: 0
-  - label: Lunch fallen
-    id: 2
-    type: 0
-    val: 0
-    floatVal: 0
-    textVal: 
-    gameObjectVal: {fileID: 0}
-    gameObjectSaveReferences: 1
-    popUps: []
-    vector3Val: {x: 0, y: 0, z: 0}
-    link: 0
-    pmVar: 
-    updateLinkOnStart: 0
-    canTranslate: 1
-    popUpID: 0
-    textValLineID: -1
-    popUpsLineID: -1
-    description: 
-    showInFilter: 0
+  vars: []
   varPresets: []
   updateRuntime: 1
   popUpLabelData: []
