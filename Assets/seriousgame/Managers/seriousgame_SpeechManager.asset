@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: seriousgame_SpeechManager
   m_EditorClassIdentifier: 
   scrollSubtitles: 1
-  scrollNarration: 1
+  scrollNarration: 0
   textScrollSpeed: 50
   textScrollCLip: {fileID: 0}
   narrationTextScrollCLip: {fileID: 0}
@@ -24,14 +24,14 @@ MonoBehaviour:
   displayNarrationForever: 0
   playAnimationForever: 1
   canSkipWithMouseClicks: 1
-  minimumDisplayTime: 0.5
+  minimumDisplayTime: 1
   screenTimeFactor: 0.1
   allowSpeechSkipping: 0
   allowGameplaySpeechSkipping: 0
   skipThresholdTime: 0
   endScrollBeforeSkip: 0
   ifSkipWhileScrolling: 0
-  scrollingTextFactorsLength: 1
+  scrollingTextFactorsLength: 0
   syncSubtitlesToAudio: 0
   useAssetBundles: 0
   searchAudioFiles: 1
@@ -72,8 +72,6 @@ MonoBehaviour:
   activeLineID: -1
   mergeMatchingSpeechIDs: 0
   useSpeechTags: 0
-  speechTags:
-  - ID: 0
-    label: (Untagged)
+  speechTags: []
   previewMenuName: Subtitles
   mergeMatchingIDs: 0

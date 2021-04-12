@@ -70,7 +70,7 @@ MonoBehaviour:
     popUpsLineID: -1
     description: 
     showInFilter: 1
-  - label: Interface ON
+  - label: Interfeace ON
     id: 3
     type: 0
     val: 0
