@@ -92,7 +92,7 @@ MonoBehaviour:
   - label: Computer ON
     id: 4
     type: 0
-    val: 1
+    val: 0
     floatVal: 0
     textVal: 
     gameObjectVal: {fileID: 0}
@@ -129,6 +129,25 @@ MonoBehaviour:
     showInFilter: 1
   - label: Switch 2 ON
     id: 6
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 1
+  - label: Computer Button ON
+    id: 7
     type: 0
     val: 0
     floatVal: 0
