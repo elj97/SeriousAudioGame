@@ -92,7 +92,7 @@ MonoBehaviour:
   - label: Computer ON
     id: 4
     type: 0
-    val: 0
+    val: 1
     floatVal: 0
     textVal: 
     gameObjectVal: {fileID: 0}
