@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: seriousgame_SpeechManager
   m_EditorClassIdentifier: 
   scrollSubtitles: 1
-  scrollNarration: 0
-  textScrollSpeed: 50
+  scrollNarration: 1
+  textScrollSpeed: 25
   textScrollCLip: {fileID: 0}
   narrationTextScrollCLip: {fileID: 0}
   playScrollAudioEveryCharacter: 1

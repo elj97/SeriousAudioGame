@@ -40,11 +40,11 @@ MonoBehaviour:
   players: []
   movementMethod: 0
   inputMethod: 0
-  interactionMethod: 1
+  interactionMethod: 2
   selectInteractions: 0
   autoHideInteractionIcons: 1
   cancelInteractions: 0
-  seeInteractions: 0
+  seeInteractions: 1
   closeInteractionMenuIfTapHotspot: 1
   stopPlayerOnClickHotspot: 0
   cycleInventoryCursors: 1
