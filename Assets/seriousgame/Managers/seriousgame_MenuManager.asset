@@ -591,7 +591,7 @@ MonoBehaviour:
   isLocked: 0
   id: 11
   title: Hotspot
-  manualSize: {x: 34, y: 11.999999}
+  manualSize: {x: 34, y: 12.000001}
   positionType: 3
   manualPosition: {x: 50, y: 44.4}
   positionSmoothing: 0
@@ -662,13 +662,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 472.26, y: 90.479996}
+  biggestElementSize: {x: 412.08, y: 81.840004}
   rect:
     serializedVersion: 2
-    x: 458.37
-    y: 289.536
-    width: 472.26
-    height: 90.479996
+    x: 399.96002
+    y: 261.888
+    width: 412.08
+    height: 81.840004
   showInFilter: 1
 --- !u!114 &-6592743367756744564
 MonoBehaviour:
@@ -961,7 +961,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 1
   title: Use
-  slotSize: {x: 2.5682182, y: 4.564907}
+  slotSize: {x: 2.640264, y: 4.692082}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -986,8 +986,8 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 3.3642
-    y: 3.3642
+    x: 7.3932004
+    y: 7.3932004
     width: 32
     height: 32
   relativePosition: {x: 0, y: 0}
@@ -1201,7 +1201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   title: Look
-  slotSize: {x: 2.5682182, y: 4.564907}
+  slotSize: {x: 2.640264, y: 4.692082}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -1226,8 +1226,8 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 74.0926
-    y: 3.3642
+    x: 7.3932004
+    y: 86.1796
     width: 32
     height: 32
   relativePosition: {x: 0, y: 0}
@@ -1671,7 +1671,7 @@ MonoBehaviour:
   isLocked: 0
   id: 6
   title: Interaction
-  manualSize: {x: 9.054654, y: 6.9598293}
+  manualSize: {x: 3.860264, y: 25.496483}
   positionType: 4
   manualPosition: {x: 50, y: 50}
   positionSmoothing: 0
@@ -1709,10 +1709,10 @@ MonoBehaviour:
   - {fileID: 5980333272514116902}
   - {fileID: -5169015331787805519}
   - {fileID: 2926282143137838071}
-  spacing: 0.27
+  spacing: 0.61
   sizeType: 0
   autoSizeEveryFrame: 0
-  orientation: 0
+  orientation: 1
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -1748,13 +1748,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 109.456795, y: 45.424202}
+  biggestElementSize: {x: 39.3932, y: 166.49281}
   rect:
     serializedVersion: 2
-    x: 566.5895
-    y: 326.1058
-    width: 112.82099
-    height: 48.788403
+    x: 582.6068
+    y: 254.05699
+    width: 46.7864
+    height: 173.88602
   showInFilter: 1
 --- !u!114 &-3295745139349485392
 MonoBehaviour:
@@ -2679,8 +2679,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 472.26
-    height: 90.479996
+    width: 412.08
+    height: 81.840004
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -4287,10 +4287,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 109.456795
-    y: 3.3642
+    x: 7.3932004
+    y: 125.57281
     width: 0
-    height: 42.06
+    height: 40.920002
   relativePosition: {x: 0, y: 0}
   numSlots: 0
   uiSlots:
@@ -5567,7 +5567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 3
   title: Talk
-  slotSize: {x: 2.5682182, y: 4.564907}
+  slotSize: {x: 2.640264, y: 4.692082}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -5592,8 +5592,8 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 38.7284
-    y: 3.3642
+    x: 7.3932004
+    y: 46.7864
     width: 32
     height: 32
   relativePosition: {x: 0, y: 0}
