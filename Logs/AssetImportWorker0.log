@@ -15,11 +15,11 @@ C:/Users/Elijah/Documents/GitHub/SeriousAudioGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57055
+60697
 Successfully changed project path to: C:/Users/Elijah/Documents/GitHub/SeriousAudioGame
 C:/Users/Elijah/Documents/GitHub/SeriousAudioGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 40.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,116 +35,272 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001892 seconds.
+Registered in 0.001790 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.47 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 42.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.513 seconds
+- Completed reload, in  1.470 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001041 seconds.
+Registered in 0.000690 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 43.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 45.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.818 seconds
+- Completed reload, in  0.794 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2370 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 105.8 MB.
 System memory in use after: 105.8 MB.
 
 Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2811.
-Total: 2.548400 ms (FindLiveObjects: 0.289600 ms CreateObjectMapping: 0.167600 ms MarkObjects: 1.950800 ms  DeleteObjects: 0.139300 ms)
+Total: 2.363400 ms (FindLiveObjects: 0.286800 ms CreateObjectMapping: 0.078600 ms MarkObjects: 1.864600 ms  DeleteObjects: 0.132400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/seriousgame/Graphics/Sprites/Fireface_Updated.png
-  artifactKey: Guid(0f5fcaf8c5c1ef04c87ad9bfc1f8cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites/Fireface_Updated.png using Guid(0f5fcaf8c5c1ef04c87ad9bfc1f8cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcd997b576a34c6315a78b1243e0c61') in 0.074752 seconds
-  Import took 0.079207 seconds .
+  path: Assets/seriousgame/Audio/Music/Background_music_LuxDV_3.05min.mp3
+  artifactKey: Guid(8dfa113c9bdf14d4ba9eb66b8ba509bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seriousgame/Audio/Music/Background_music_LuxDV_3.05min.mp3 using Guid(8dfa113c9bdf14d4ba9eb66b8ba509bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f553d1cccd3d7169787308ce16ce13') in 0.067506 seconds
+  Import took 0.070991 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 450.032044 seconds.
-  path: Assets/seriousgame/Graphics/Sprites/Switch_Off_Plug.png
-  artifactKey: Guid(cfc2e56cee6ce284783110c4bb81252e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites/Switch_Off_Plug.png using Guid(cfc2e56cee6ce284783110c4bb81252e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588a0211306bbf50439bd26c20242697') in 0.018165 seconds
-  Import took 0.022471 seconds .
+  Time since last request: 363.886763 seconds.
+  path: Assets/seriousgame/Graphics/Sprites/Table.png
+  artifactKey: Guid(860b8f7f451eafe4f8262a0fdc9aabf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seriousgame/Graphics/Sprites/Table.png using Guid(860b8f7f451eafe4f8262a0fdc9aabf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd757bc5ccf10bdc79b89d404b8252b06') in 0.034309 seconds
+  Import took 0.038033 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001198 seconds.
-  path: Assets/seriousgame/Graphics/Sprites/Switch_Off_Plug.png
-  artifactKey: Guid(cfc2e56cee6ce284783110c4bb81252e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites/Switch_Off_Plug.png using Guid(cfc2e56cee6ce284783110c4bb81252e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588a0211306bbf50439bd26c20242697') in 0.011454 seconds
-  Import took 0.014841 seconds .
+  Time since last request: 476.668833 seconds.
+  path: Assets/seriousgame/Graphics/Sprites/Switch_Off_Plug (1).png
+  artifactKey: Guid(23b29a21d0f7e4945b60452c45bff023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seriousgame/Graphics/Sprites/Switch_Off_Plug (1).png using Guid(23b29a21d0f7e4945b60452c45bff023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e42c1d13f41cac3821dc4ce32363ec2') in 0.018302 seconds
+  Import took 0.021919 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.628039 seconds.
-  path: Assets/seriousgame/Graphics/Sprites/Switch_On_Plug.png
-  artifactKey: Guid(b892c377c15579e459d9a0552ec241c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites/Switch_On_Plug.png using Guid(b892c377c15579e459d9a0552ec241c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393f1892b0d75b04750c49ec1822bee0') in 0.015904 seconds
-  Import took 0.024687 seconds .
+  Time since last request: 22.050818 seconds.
+  path: Assets/seriousgame/Graphics/Sprites/Switch_Off_Plug (1).png
+  artifactKey: Guid(23b29a21d0f7e4945b60452c45bff023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seriousgame/Graphics/Sprites/Switch_Off_Plug (1).png using Guid(23b29a21d0f7e4945b60452c45bff023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85ac38a168f85d3c01ab8bf33bc258c') in 0.017349 seconds
+  Import took 0.020914 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 57.882848 seconds.
-  path: Assets/seriousgame/Graphics/Sprites/Switch-_off.png
-  artifactKey: Guid(5b4c1f0260d40614aaeeeb00b7de21d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites/Switch-_off.png using Guid(5b4c1f0260d40614aaeeeb00b7de21d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7573733721fd28aa4c2bc83799437ad') in 0.016845 seconds
-  Import took 0.025382 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000893 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AC.ACEditorPrefs:GetOrCreateSettings () (at Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:73)
+AC.ACEditorPrefs:get_DisableInstaller () (at Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:347)
+AC.ACInstaller:IsInstalled () (at Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:35)
+AC.ACInstaller:CheckInstall () (at Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:50)
+AC.ACInstaller:.cctor () (at Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 73]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x000e5] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\ACEditorPrefs.cs:73 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\ACEditorPrefs.cs:347 
+  at AC.ACInstaller.IsInstalled () [0x00000] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\Editor\ACInstaller.cs:35 
+  at AC.ACInstaller.CheckInstall () [0x00000] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\Editor\ACInstaller.cs:50 
+  at AC.ACInstaller..cctor () [0x00000] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\Editor\ACInstaller.cs:29 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.696 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2348 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.5 MB.
+System memory in use after: 107.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2828.
+Total: 1.897200 ms (FindLiveObjects: 0.264600 ms CreateObjectMapping: 0.058200 ms MarkObjects: 1.466100 ms  DeleteObjects: 0.107400 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.516625 seconds.
-  path: Assets/seriousgame/Graphics/Sprites/Switch-_on.png
-  artifactKey: Guid(75fc679046b763c4cb92baaa79390765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites/Switch-_on.png using Guid(75fc679046b763c4cb92baaa79390765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98c09ba0f58f5529d31f93626123316') in 0.010655 seconds
-  Import took 0.014417 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000889 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AC.ACEditorPrefs:GetOrCreateSettings () (at Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:73)
+AC.ACEditorPrefs:get_DisableInstaller () (at Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:347)
+AC.ACInstaller:IsInstalled () (at Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:35)
+AC.ACInstaller:CheckInstall () (at Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:50)
+AC.ACInstaller:.cctor () (at Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 73]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x000e5] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\ACEditorPrefs.cs:73 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\ACEditorPrefs.cs:347 
+  at AC.ACInstaller.IsInstalled () [0x00000] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\Editor\ACInstaller.cs:35 
+  at AC.ACInstaller.CheckInstall () [0x00000] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\Editor\ACInstaller.cs:50 
+  at AC.ACInstaller..cctor () [0x00000] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\Editor\ACInstaller.cs:29 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.708 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2348 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.6 MB.
+System memory in use after: 107.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2833.
+Total: 2.182800 ms (FindLiveObjects: 0.283400 ms CreateObjectMapping: 0.058800 ms MarkObjects: 1.724000 ms  DeleteObjects: 0.114600 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 11.759970 seconds.
-  path: Assets/seriousgame/Graphics/Sprites/Switch-_on.png
-  artifactKey: Guid(75fc679046b763c4cb92baaa79390765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites/Switch-_on.png using Guid(75fc679046b763c4cb92baaa79390765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ca693f1e11c31a321975064003bb82') in 0.009904 seconds
-  Import took 0.013809 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000964 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AC.ACEditorPrefs:GetOrCreateSettings () (at Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:73)
+AC.ACEditorPrefs:get_DisableInstaller () (at Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:347)
+AC.ACInstaller:IsInstalled () (at Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:35)
+AC.ACInstaller:CheckInstall () (at Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:50)
+AC.ACInstaller:.cctor () (at Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 73]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x000e5] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\ACEditorPrefs.cs:73 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\ACEditorPrefs.cs:347 
+  at AC.ACInstaller.IsInstalled () [0x00000] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\Editor\ACInstaller.cs:35 
+  at AC.ACInstaller.CheckInstall () [0x00000] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\Editor\ACInstaller.cs:50 
+  at AC.ACInstaller..cctor () [0x00000] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\Editor\ACInstaller.cs:29 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.680 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2348 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.6 MB.
+System memory in use after: 107.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2838.
+Total: 2.326900 ms (FindLiveObjects: 0.273300 ms CreateObjectMapping: 0.062000 ms MarkObjects: 1.872500 ms  DeleteObjects: 0.117900 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 19.680881 seconds.
-  path: Assets/seriousgame/Graphics/Sprites/Switch_On_Plug.png
-  artifactKey: Guid(b892c377c15579e459d9a0552ec241c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites/Switch_On_Plug.png using Guid(b892c377c15579e459d9a0552ec241c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a742c8b881c07e53e8a0ebb09f26d1') in 0.012740 seconds
-  Import took 0.017060 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000868 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AC.ACEditorPrefs:GetOrCreateSettings () (at Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:73)
+AC.ACEditorPrefs:get_DisableInstaller () (at Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs:347)
+AC.ACInstaller:IsInstalled () (at Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:35)
+AC.ACInstaller:CheckInstall () (at Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:50)
+AC.ACInstaller:.cctor () (at Assets/AdventureCreator/Scripts/Managers/Editor/ACInstaller.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-========================================================================
-Received Import Request.
-  Time since last request: 9.407024 seconds.
-  path: Assets/seriousgame/Graphics/Sprites/Switch_Off_Plug.png
-  artifactKey: Guid(cfc2e56cee6ce284783110c4bb81252e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seriousgame/Graphics/Sprites/Switch_Off_Plug.png using Guid(cfc2e56cee6ce284783110c4bb81252e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6a0f92e91ee53a84f4b11498e25d97') in 0.011819 seconds
-  Import took 0.016112 seconds .
+[Assets/AdventureCreator/Scripts/Managers/ACEditorPrefs.cs line 73]
+
+UnityEngine.UnityException: Creating asset at path Assets/AdventureCreator/Editor/ACEditorPrefs.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at AC.ACEditorPrefs.GetOrCreateSettings () [0x000e5] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\ACEditorPrefs.cs:73 
+  at AC.ACEditorPrefs.get_DisableInstaller () [0x00000] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\ACEditorPrefs.cs:347 
+  at AC.ACInstaller.IsInstalled () [0x00000] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\Editor\ACInstaller.cs:35 
+  at AC.ACInstaller.CheckInstall () [0x00000] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\Editor\ACInstaller.cs:50 
+  at AC.ACInstaller..cctor () [0x00000] in C:\Users\Elijah\Documents\GitHub\SeriousAudioGame\Assets\AdventureCreator\Scripts\Managers\Editor\ACInstaller.cs:29 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.698 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2348 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.6 MB.
+System memory in use after: 107.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2843.
+Total: 1.895900 ms (FindLiveObjects: 0.259900 ms CreateObjectMapping: 0.065500 ms MarkObjects: 1.455000 ms  DeleteObjects: 0.114300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

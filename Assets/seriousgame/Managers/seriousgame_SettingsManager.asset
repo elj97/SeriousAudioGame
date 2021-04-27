@@ -40,7 +40,7 @@ MonoBehaviour:
   players: []
   movementMethod: 0
   inputMethod: 0
-  interactionMethod: 1
+  interactionMethod: 2
   selectInteractions: 0
   autoHideInteractionIcons: 1
   cancelInteractions: 0
@@ -169,9 +169,13 @@ MonoBehaviour:
   loadingDelay: 0
   blackOutWhenInitialising: 1
   spawnPersistentEnginePrefab: 1
-  playMusicWhilePaused: 0
+  playMusicWhilePaused: 1
   playAmbienceWhilePaused: 0
-  musicStorages: []
+  musicStorages:
+  - ID: 0
+    audioClip: {fileID: 8300000, guid: 8dfa113c9bdf14d4ba9eb66b8ba509bb, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 0}
   ambienceStorages: []
   loadAmbienceFadeTime: 0
   crossfadeAmbienceWhenLoading: 0
@@ -179,7 +183,7 @@ MonoBehaviour:
   loadMusicFadeTime: 0
   crossfadeMusicWhenLoading: 0
   restartMusicTrackWhenLoading: 0
-  autoEndOtherMusicWhenPlayed: 1
+  autoEndOtherMusicWhenPlayed: 0
   volumeControl: 0
   musicMixerGroup: {fileID: 0}
   sfxMixerGroup: {fileID: 0}
