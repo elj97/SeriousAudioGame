@@ -2186,7 +2186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b46d2b6a8cfb042ab6d2de34816628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: 799796255}
   GoodButton: {fileID: 21300000, guid: 75fc679046b763c4cb92baaa79390765, type: 3}
   ButtonVariable: 3
 --- !u!212 &799796255
@@ -2791,6 +2791,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1234267370}
   - component: {fileID: 1234267369}
+  - component: {fileID: 1234267371}
   m_Layer: 0
   m_Name: Fireface_800_Back
   m_TagString: Untagged
@@ -2863,6 +2864,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1234267371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234267368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76b46d2b6a8cfb042ab6d2de34816628, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
+  GoodButton: {fileID: 0}
+  ButtonVariable: 0
 --- !u!1 &1244544271
 GameObject:
   m_ObjectHideFlags: 0
@@ -3356,7 +3372,7 @@ MonoBehaviour:
   slotNumberParameterID: -1
   intValue: 0
   floatValue: 0
-  boolValue: 0
+  boolValue: 1
   stringValue: 
   formula: 
   vector3Value: {x: 0, y: 0, z: 0}
@@ -3461,9 +3477,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b46d2b6a8cfb042ab6d2de34816628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: 1496212296}
   GoodButton: {fileID: 21300000, guid: 094210fe9e6531c44af29358f776684b, type: 3}
-  ButtonVariable: 1
+  ButtonVariable: 2
 --- !u!212 &1496212296
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3627,9 +3643,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b46d2b6a8cfb042ab6d2de34816628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: 1537228704}
   GoodButton: {fileID: 21300000, guid: ea3e8e76ddb33b843b166b7f76f38cf8, type: 3}
-  ButtonVariable: 3
+  ButtonVariable: 1
 --- !u!212 &1537228704
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4267,9 +4283,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b46d2b6a8cfb042ab6d2de34816628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: 1757103828}
   GoodButton: {fileID: 21300000, guid: ea3e8e76ddb33b843b166b7f76f38cf8, type: 3}
-  ButtonVariable: 3
+  ButtonVariable: 0
 --- !u!212 &1757103828
 SpriteRenderer:
   m_ObjectHideFlags: 0
