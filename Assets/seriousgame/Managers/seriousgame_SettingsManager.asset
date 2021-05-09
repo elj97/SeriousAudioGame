@@ -40,7 +40,7 @@ MonoBehaviour:
   players: []
   movementMethod: 0
   inputMethod: 0
-  interactionMethod: 2
+  interactionMethod: 0
   selectInteractions: 0
   autoHideInteractionIcons: 1
   cancelInteractions: 0
@@ -173,7 +173,7 @@ MonoBehaviour:
   playAmbienceWhilePaused: 0
   musicStorages:
   - ID: 0
-    audioClip: {fileID: 8300000, guid: 8dfa113c9bdf14d4ba9eb66b8ba509bb, type: 3}
+    audioClip: {fileID: 8300000, guid: 97089bb151edc6741bbaddaaa0c746eb, type: 3}
     relativeVolume: 1
     overrideMixerGroup: {fileID: 0}
   ambienceStorages: []

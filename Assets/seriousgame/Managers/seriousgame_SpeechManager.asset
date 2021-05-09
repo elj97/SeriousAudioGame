@@ -20,7 +20,7 @@ MonoBehaviour:
   playScrollAudioEveryCharacter: 1
   speechScrollAudioSource: 0
   waitTimeOffset: 0
-  displayForever: 0
+  displayForever: 1
   displayNarrationForever: 0
   playAnimationForever: 1
   canSkipWithMouseClicks: 1
